@@ -50,7 +50,7 @@ hotel-management/
 │   ├── features/
 │   ├── pages/
 │   ├── services/
-│   ├── App.jsx
+│   ├── app.jsx
 │   ├── main.jsx
 │   └── style.css
 │
@@ -147,7 +147,7 @@ npm run dev
 
 The backend server runs at:
 
-`http://localhost:5000`
+`https://react-nut7.onrender.com`
 
 7.  Start the Frontend
 
@@ -161,7 +161,7 @@ Open the local URL displayed by Vite in your browser.
 
 API Endpoints
 
-Base URL: `http://localhost:5000/api`
+Base URL: `https://react-nut7.onrender.com`
 
 | Method | Endpoint      | Description             |
 | ------ | ------------- | ----------------------- |
