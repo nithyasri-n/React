@@ -4,7 +4,7 @@ function HotelCard({ hotel, onView, onEdit, onDelete }) {
   const imageUrl = hotel.image
     ? hotel.image.startsWith("http")
       ? hotel.image
-      : `http://localhost:5000/uploads/${hotel.image}`
+      : `https://react-nut7.onrender.com/uploads/${hotel.image}`
     : "https://placehold.co/600x400?text=No+Hotel+Image";
 
   return (

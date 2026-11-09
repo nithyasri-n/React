@@ -35,7 +35,7 @@ function AddHotel({ hotels, onAddHotel, onUpdateHotel, showToast }) {
         selectedHotel.image
           ? selectedHotel.image.startsWith("http")
             ? selectedHotel.image
-            : `http://localhost:5000/uploads/${selectedHotel.image}`
+            : `https://react-nut7.onrender.com/uploads/${selectedHotel.image}`
           : "",
       );
     } else if (!isEditing) {
